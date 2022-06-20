@@ -1,11 +1,36 @@
-body {
-    color: blue;
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 h1 {
+    margin: auto;
     text-align: center;
+
 }
 
 h2 {
     text-align: center;
 }
+
+h3 {
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+
+}
+
+.services {
+   justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.blue-man {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
