@@ -1,6 +1,6 @@
 * {
     font-family: "Lucida Console", "Courier New", monospace;
-    background-color: salmon;
+    background-color: #F9EADA;
 }
 
 h1 {
@@ -28,10 +28,55 @@ p {
     display: flex;
     flex-direction: row;
 }
+/* .sessions {
+    margin-right: 1000px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.lessons {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.shows {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+} */
+.about-section {
+    justify-content: center;
+     display: flex;
+     flex-direction: row;
+    margin-right: 100px;
+    margin-left: 100px;
+ }
+
+ .about-text > * {
+    text-align: left;
+ }
 
 .blue-man {
+    /* change to rounded border */
+    border-radius: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    margin-top: 40px;
     width: 40%;
   }
+
+.bw {
+    /* change to rounded border */    
+        display: block;
+        margin-left: 650px;
+        margin-right: 400px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        width: 40%;
+}
