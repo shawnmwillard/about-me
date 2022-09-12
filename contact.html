@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-wdth, initial-scale=1.0">
+    <title>About Me Page</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/contact.js"></script>
+    <!-- Add <img src="example_image" alt="image description" to link html to css-->
+  </head>
+  <body>
+
+    <div class="navbar">
+      <!-- add html pages for Dates, Library, and Contact/Sessions -->
+      <a href="index.html">Home</a>
+      <a href="dates.html">Dates</a>
+      <a href="library.html">Library</a>
+      <a href="contact.html">Contact/Sessions</a>
+    </div>
+    <br><br>
+
+    <div class="header">
+      <h1>Use this form if you would like to hire Shawn for a session or for any other questions you might have about his work.</h1>
+    </div>
+
+    <div class="container">
+      <form action="action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="">
+
+      <label for="lname">Email Address</label>
+      <input type="text" id="lname" name="lastname" placeholder="">
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder=""
+      style="height:200px"></textarea>
+
+        <button type="SubmitButton">Submit</button>
+        <script>
+          document.getElementById("Submit").addEventListener("click", function(){ alert("success!");});
+        </script>
+      </div>
+    
+    </div>
