@@ -1,6 +1,6 @@
 * {
     font-family: "Lucida Console", "Courier New", monospace;
-    background-color: #F9EADA;
+    background-color: #ffffff;
 }
 
 body,html {
@@ -15,7 +15,7 @@ h1 {
 
 .navbar {
     overflow: hidden;
-    background-color: #F9EADA;
+    background-color: #ffffff;
     position: fixed;
     top: 0;
     width: 100%;
@@ -90,7 +90,7 @@ img {
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
+    width:100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
@@ -118,6 +118,6 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    background-color: #F9EADA;
+    background-color: #ffffff;
     padding: 20px;
   }

@@ -14,36 +14,45 @@
 
     <div class="navbar">
       <!-- add html pages for Dates, Library, and Contact/Sessions -->
-      <a href="index.html">Home</a>
-      <a href="dates.html">Dates</a>
-      <a href="library.html">Library</a>
-      <a href="contact.html">Contact/Sessions</a>
+      <a href="index.html">HOME</a>
+      <a href="dates.html">UPCOMING EVENTS</a>
+      <a href="library.html">CATALOG</a>
+      <a href="contact.html">CONTACT</a>
     </div>
     <br><br>
 
     <div class="header">
-      <h1>Use this form if you would like to hire Shawn for a session or for any other questions you might have about his work.</h1>
+      <h1>CONTACT</h1>
     </div>
+    <form>
+     <div class="container">
+       <form action="action_page.php">
+       <label for="fname">First Name</label>
+       <input type="text" id="fname" name="firstname" placeholder="">
 
-    <div class="container">
-      <form action="action_page.php">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="">
+       <label for="lname">Last Name</label>
+       <input type="text" id="lname" name="lastname" placeholder="">
 
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="">
+       <label for="lname">Email Address</label>
+       <input type="text" id="lname" name="lastname" placeholder="">
 
-      <label for="lname">Email Address</label>
-      <input type="text" id="lname" name="lastname" placeholder="">
-
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder=""
-      style="height:200px"></textarea>
+       <label for="subject">Subject</label>
+       <textarea id="subject" name="subject" placeholder=""
+       style="height:200px"></textarea>
 
         <button type="SubmitButton">Submit</button>
         <script>
-          document.getElementById("Submit").addEventListener("click", function(){ alert("success!");});
+          const form = document.querySelector('form');
+
+          form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const fd = new FormData(form);
+            console.log(fd);
+          })
+
+          // document.getElementById("Submit").addEventListener("click", function(){ alert("success!");});
         </script>
       </div>
+    </form>
     
     </div>
